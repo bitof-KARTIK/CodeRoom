@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Sure, here's the updated README.md file with sections for screenshots:
+
+```markdown
+# CodeRoom
+
+CodeRoom is a collaborative platform that allows developers to find each other online and create rooms to code together in real-time. It's designed to facilitate pair programming, code reviews, and collaborative learning.
+
+## Features
+
+- **Browse Code Rooms**: Easily find and join existing coding rooms.
+- **Create Code Rooms**: Create new rooms for collaborative coding sessions.
+- **Delete Code Rooms**: Room creators can delete their rooms when they are no longer needed.
+- **Video Calling**: Integrated video calling using the GetStream API for seamless communication.
+
+## Technologies Used
+
+- **Front-end**: Next.js, Tailwind CSS
+- **Database**: Drizzle
+- **Authentication**: NextAuth
+- **Video Calling**: GetStream API
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (v14 or higher)
+- Drizzle
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bitof-KARTIK/CodeRoom.git
+   cd CodeRoom
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory and add the following variables:
+   ```env
+   DATABASE_URL='yourdatabaseurl'
+   GOOGLE_CLIENT_ID='your google client id'
+   GOOGLE_CLIENT_SECRET='your google client secret'
+   NEXTAUTH_SECRET='your next auth secret'
+   NEXT_PUBLIC_GET_STREAM_API_KEY='your getstream api key'
+   GET_STREAM_SECRET_KEY='your getstream secret key'
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Usage
+
+1. Sign up or log in to your account.
+2. Browse or create a new code room.
+3. Start coding collaboratively in real-time!
+4. Use video calling to communicate with other developers in the room.
+
+## Screenshots
+
+### Landing Page
+![Landing Page](path/to/landing-page-screenshot.png)
+
+### Browse Page
+![Browse Page](path/to/browse-page-screenshot.png)
+
+### Create Room Page
+![Create Room Page](path/to/create-room-page-screenshot.png)
+
+### Meeting Page
+![Meeting Page](path/to/meeting-page-screenshot.png)
+
+### Your Rooms Page
+![Your Rooms Page](path/to/your-rooms-page-screenshot.png)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the code style and include tests for your changes.
+
+1. Fork the repository
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add your feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Thanks to all the open-source projects and libraries used in this project.
+
+## Contact
+
+Kartik Shah - [kartik26op@gmail.com](mailto:kartik26op@gmail.com)
+
+Project Link: [https://github.com/bitof-KARTIK/CodeRoom](https://github.com/bitof-KARTIK/CodeRoom)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Replace `path/to/...-screenshot.png` with the actual paths to your screenshot images. Let me know if you need any more changes!
