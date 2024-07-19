@@ -1,6 +1,4 @@
-Sure, here's the updated README.md file with sections for screenshots:
 
-```markdown
 # CodeRoom
 
 CodeRoom is a collaborative platform that allows developers to find each other online and create rooms to code together in real-time. It's designed to facilitate pair programming, code reviews, and collaborative learning.
@@ -67,19 +65,26 @@ CodeRoom is a collaborative platform that allows developers to find each other o
 ## Screenshots
 
 ### Landing Page
-![Landing Page](path/to/landing-page-screenshot.png)
+![Screenshot 2024-07-20 002845](https://github.com/user-attachments/assets/8e4460e9-8502-4e40-9023-48f1246020ce)
+
 
 ### Browse Page
-![Browse Page](path/to/browse-page-screenshot.png)
+![Screenshot 2024-07-20 002858](https://github.com/user-attachments/assets/d7737f28-3ffa-4140-98d0-c92952b3cb86)
+
+![Screenshot 2024-07-20 003034](https://github.com/user-attachments/assets/cb307a11-1b8c-4714-aadc-ee3eacbe8e11)
+
 
 ### Create Room Page
-![Create Room Page](path/to/create-room-page-screenshot.png)
+![Screenshot 2024-07-20 003143](https://github.com/user-attachments/assets/12b56a09-83e5-477c-8303-ca202d40c8a6)
+
 
 ### Meeting Page
-![Meeting Page](path/to/meeting-page-screenshot.png)
+![Screenshot 2024-07-20 002947](https://github.com/user-attachments/assets/a36c31ca-dd3b-44be-8caa-5422107383aa)
+
 
 ### Your Rooms Page
-![Your Rooms Page](path/to/your-rooms-page-screenshot.png)
+![Screenshot 2024-07-20 003048](https://github.com/user-attachments/assets/6a8ad832-0238-4f77-9dad-34bd8418faff)
+
 
 ## Contributing
 
@@ -102,7 +107,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ## Acknowledgements
 
@@ -111,8 +116,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 Kartik Shah - [kartik26op@gmail.com](mailto:kartik26op@gmail.com)
-
-Project Link: [https://github.com/bitof-KARTIK/CodeRoom](https://github.com/bitof-KARTIK/CodeRoom)
-```
-
-Replace `path/to/...-screenshot.png` with the actual paths to your screenshot images. Let me know if you need any more changes!
